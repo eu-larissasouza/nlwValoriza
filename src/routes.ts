@@ -8,4 +8,3 @@ const createUserController = new CreateUserController();
 router.post("/users", createUserController.handle);
 
 export { router };
-

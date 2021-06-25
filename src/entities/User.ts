@@ -1,8 +1,14 @@
-import { Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn } from "typeorm";
-import { v4 as uuid } from "uuid"
+import {
+  Entity,
+  PrimaryColumn,
+  Column,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from "typeorm";
+import { v4 as uuid } from "uuid";
+
 @Entity("users")
 class User {
-
   @PrimaryColumn()
   readonly id: string;
 
@@ -21,14 +27,11 @@ class User {
   @UpdateDateColumn()
   updated_at: Date;
 
-  //Verifica se o id está preenchido ou não
   constructor() {
     if (!this.id) {
       this.id = uuid();
     }
   }
-
 }
 
 export { User };
-
