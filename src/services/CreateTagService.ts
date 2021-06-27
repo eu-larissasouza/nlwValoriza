@@ -2,7 +2,6 @@ import { getCustomRepository } from "typeorm";
 import { TagsRepositories } from "../repositories/TagsRepositories";
 
 class CreateTagService {
-
   async execute(name: string) {
     const tagsRepositories = getCustomRepository(TagsRepositories);
 
@@ -10,9 +9,9 @@ class CreateTagService {
       throw new Error("Incorrect name!");
     }
 
-    //SELECT * FROM tags WHERE NAME = "name"
+    // SELECT * FROM TAGS WHERE NAME = 'name'
     const tagAlreadyExists = await tagsRepositories.findOne({
-      name
+      name,
     });
 
     if (tagAlreadyExists) {
@@ -20,7 +19,7 @@ class CreateTagService {
     }
 
     const tag = tagsRepositories.create({
-      name
+      name,
     });
 
     await tagsRepositories.save(tag);
