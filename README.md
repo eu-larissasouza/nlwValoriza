@@ -1,26 +1,22 @@
-# NLW Valoriza
-Projeto desenvolvido durante o evento NLW Together da Rocketseat na Trilha NodeJS
+# [Rocketseat](https://rocketseat.com.br/) - Next Level Week Together (Edição 6.0)
 
-##Regras
+Juntos para o próximo nível. Um evento para dar o próximo passo na sua evolução como dev evoluindo na tecnologia que faz mais sentido para você.
 
-- Cadastro de usuário
+**Instrutora**: [Daniele Leão](https://github.com/danileao)
 
-  [ X ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+<p align="center">
+  <img  width='400' src='https://user-images.githubusercontent.com/45580434/77861076-3b093800-71e9-11ea-8e63-f976402ce769.png'>
+</p>
+<br>
 
-  [ X ] Não é permitido cadastrar usuário sem e-mail
-  
-- Cadastro de TAG
+## Projeto: nlwValoriza
 
-  [ X ] Não é permitido cadastrar mais de uma tag com o mesmo nome
+<p align="center">
+  <img width='400' src="https://images.ctfassets.net/ucp6tw9r5u7d/58whZ9fuYern2P52JkwhQt/867c527d709d3968d216b691f31b6c75/Voc___pede_opini__o_s___para_quem_concorda_com_voc__.jpg">
+</p>
 
-  [ X ] Não é permitido cadastrar tag sem nome
+### Escopo
+Desenvolver uma aplicação back-end que permita que usuários cadastrem "elogios" a outros usuários de modo a criar uma rede de produtividade e autoconfiança, com uma API própria desenvolvida em **Node.js**.
 
-  [ X ] Não é permitido o cadastro por usuários que não sejam administradores
-
-- Cadastro de elogios
-
-  [ ] Não é permitido um usuário cadastrar um elogio para si
-
-  [ ] Não é permitido cadastrar elogios para usuários inválidos
-
-  [ ] O usuário precisa estar autenticado na aplicação
+### Planos para o futuro
+Evoluir a aplicação rumo ao próximo nível, desenvolver toda a parte do frontend do projeto, criando uma identidade própria para a minha aplicação.
