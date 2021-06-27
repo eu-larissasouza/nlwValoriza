@@ -5,7 +5,7 @@ Juntos para o próximo nível. Um evento para dar o próximo passo na sua evolu�
 **Instrutora**: [Daniele Leão](https://github.com/danileao)
 
 <p align="center">
-  <img  width='400' src='https://user-images.githubusercontent.com/45580434/77861076-3b093800-71e9-11ea-8e63-f976402ce769.png'>
+  <img  width='400' src='https://github.com/eu-larissasouza/nlwValoriza/blob/main/src/img/nlw-edition.png?raw=true'>
 </p>
 <br>
 
